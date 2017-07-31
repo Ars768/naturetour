@@ -1,0 +1,317 @@
+body
+{
+	background:#fdf5e6;
+}
+.hide 
+{
+	display:none;
+}
+.show 
+{
+	display:inline;
+} 
+.rel
+{
+position:relative;
+}
+
+.dot {
+ cursor:pointer;
+ height: 15px;
+ width: 15px;
+ top:90%;
+ margin-right:0px;
+ background-color: grey;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+ position:absolute
+}
+
+
+
+#main
+{
+height:1100px;
+width:1050px;
+background:white;
+margin-left:200px;
+margin-right:200px;
+border-radius:5px;
+}
+
+#left
+{
+width:800px;
+height:1100px;
+background:white;
+position:absolute;
+border-radius:5px;
+}
+
+#right
+{
+position:absolute;
+width:250px;
+height:1100px;
+background:#eee9e9;
+left:800px;
+border-radius:5px;
+}
+
+#bigslide 
+{
+float:center;
+background:white;
+width:700px;
+margin-left:50px;
+margin-right:50px;
+margin-top:10px;
+}
+#pictures 
+{
+background:yellow;
+width:700px;
+height:auto;
+}
+
+
+
+#galleryimage
+{
+	width:700px;
+	height:auto;
+}
+
+#grey
+{
+	top:0px;
+	position:absolute;
+	width:250px;	
+	left:450px;
+	background: rgba(225, 225, 225, .9);
+}
+
+
+#photographerdiv
+{
+
+background:white;
+width:700px;
+height:100px;
+}
+
+#phototext
+{
+	width:500px;
+	height:100px;
+	position:absolute;
+}
+
+#photographer
+{
+	height:110px;
+	width:200px;
+	left:500px;
+	position:absolute;
+	top:-10px;
+}
+
+#photographertext1
+{
+	position :absolute;
+	top :-10px;
+}
+
+#photographertext2
+{
+	position :absolute;
+	top : 25px;
+}
+
+.hidden
+{
+	display:none;	
+}
+
+.sort
+{
+	position:absolute;
+	width:233.33px;
+	cursor:pointer;
+	height:auto;
+}
+#sort 
+{
+	width:700px;
+	height:31.1111;
+	
+}
+
+
+#sm1:hover{content:url("destination1.png");}
+#sm2:hover{content:url("species1.png");}
+#sm3:hover{content:url("tourtype1.png");}
+
+#table
+{	margin-left:50px;
+	width:700px;
+	height:700px;
+}
+
+
+select 
+{
+	width:200px;
+	height:20px;
+	margin-left:25;
+}
+
+
+
+#toppic
+{
+	width:1050px;
+	left:200px;
+	height:200px;
+}
+
+#menulist
+{
+	height:50px;
+	width:1050px;
+}
+
+#logo{
+  height:150px;
+  width:auto;
+  display: inline-block;
+  
+}
+
+
+#home{
+	float:right;
+	
+	font-size:15px;
+	
+}
+
+#contacttext
+{
+	top:0px;
+	position:absolute;
+	left:550px;
+	width:500;
+	height:150;
+}
+
+.first{
+	position :relative;
+	text-align:right;
+	text-decoration:none;
+	color:green;
+	margin-right:5px;
+}
+
+
+
+
+
+
+#menudiv{
+	background-color:none;
+	margin-left:200px;
+	width:1050;
+	height:50;
+}
+#ulmenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: Green;
+}
+#menu{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+li {
+    float: left;
+}
+li a:hover {
+    background-color: darkGreen;
+}
+a:hover{
+	text-decoration:none;
+}
+
+
+#tablepic{
+	position:relative;
+	width:200px;
+	height:auto;
+}
+#greytext{
+	margin-left:20px;
+}
+#searchholidays{
+	width:200px;
+	height:auto;
+	margin-left:25px;
+	cursor:pointer;
+}
+.rightp{
+	margin-left:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#finaltext{
+	height:50px;
+	width:1050px;
+	position:absolute;
+	top:1130px;
+	border-radius:5px;
+	background:darkGrey;
+	margin-right:200px;
+}
+#finalmain{
+	height:300px;
+	width:1050px;
+	position:absolute;
+	top:1180px;
+	margin-right:200px;
+	background:#eee9e9;
+}
+#final1{
+	height:300px;
+	width:250px;
+	position:absolute;
+}
+#final2{
+	height:300px;
+	width:550px;
+	position:absolute;
+	left:250px;
+}
+#final3{
+	height:300px;
+	width:250px;
+	position:absolute;
+	left:800px;
+}
+td a{
+	text-decoration:none;
+}
